@@ -1,0 +1,39 @@
+/* em{font-size: 3rem;font-family: Arial, Helvetica, sans-serif; }
+.html-em{color:rgb(223, 223, 35); font-size: 1rem;} 
+.active {font-size: 6rem;}
+span.active{color: aqua;font-family: Verdana, Geneva, Tahoma, sans-serif;} */
+table,
+td,
+th {
+  border: 2px solid grey;
+  border-collapse: collapse;
+  text-align: center;
+  font-weight: bold;
+}
+
+.mytable_class {
+  background: rgba(200, 255, 0, 0.831);
+}
+#mytable {
+  color: rgb(76, 0, 255);
+}
+ul.info > li {
+  list-style: none;
+}
+ul.info > li li:nth-child(2) {
+  list-style: none;
+}
+ol li a {
+  text-decoration: none;
+}
+ol li a[href*="google"] {
+  color: brown;
+}
+ol li a[target_blank]{color: green;}
+
+ol li a[href*="google"] {
+  background: grey;
+}
+ol li a[href$=".com.au"] {
+  background: rgb(49, 33, 227);
+}
